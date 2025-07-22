@@ -16,5 +16,7 @@ proximityPrompt.Triggered:Connect(function(player)
     coin.Decal2.Transparency = 1
     -- Desactivar proximityPrompt
     proximityPrompt.Enabled = false
-    
+    -- Al interactuar quitar colision
+    coin.CanCollide = false
+
 end)
